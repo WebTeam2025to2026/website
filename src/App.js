@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <meta name="google-site-verification" content="YOUR_CODE_HERE" />
+        <meta name="google-site-verification" content="PpfTxVPrPPPhq9nWhd6H0rQLOGU1EtStqQzyiDV4Rks" />
       </Helmet>
       {/* Rest of your app */}
     </>
