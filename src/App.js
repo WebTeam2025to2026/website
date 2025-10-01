@@ -13,6 +13,21 @@ import Navbar from "./components/Navbar";
 // Import Footer
 import Footer from "./components/Footer";
 
+
+import { Helmet } from 'react-helmet';
+
+function App() {
+  return (
+    <>
+      <Helmet>
+        <meta name="google-site-verification" content="YOUR_CODE_HERE" />
+      </Helmet>
+      {/* Rest of your app */}
+    </>
+  );
+}
+
+
 function App() {
   return (
     <div className="App">
