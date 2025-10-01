@@ -1,36 +1,24 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 // Import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Events from "./pages/Events";
-
 import Gallery from "./pages/Gallery";
 
-// Import Navbar
+// Import components
 import Navbar from "./components/Navbar";
-// Import Footer
 import Footer from "./components/Footer";
-
-
-import { Helmet } from 'react-helmet';
-
-function App() {
-  return (
-    <>
-      <Helmet>
-        <meta name="google-site-verification" content="PpfTxVPrPPPhq9nWhd6H0rQLOGU1EtStqQzyiDV4Rks" />
-      </Helmet>
-      {/* Rest of your app */}
-    </>
-  );
-}
-
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta name="google-site-verification" content="PpfTxVPrPPPhq9nWhd6H0rQLOGU1EtStqQzyiDV4Rks" />
+      </Helmet>
+      
       <Router>
         <Navbar />
         <main>
@@ -46,6 +34,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
