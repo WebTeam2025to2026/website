@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "quizzards-rec",        // <-- Add this line!
-    "public": "y",
+    "site": "quizzards-rec",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
